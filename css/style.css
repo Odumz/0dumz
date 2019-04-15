@@ -93,11 +93,9 @@ header {
 
 .logo a {
 	color: rgba(255,255,255,0.5);
-	font-size: 2.5em;
+	font-size: 3.3em;
 	font: url(/webfonts/Arizonia-Regular.ttf);
 }
-
-
 
 .block {
     width: 70px;
@@ -1185,13 +1183,20 @@ h3.agile_tittle.two {
 /* -- Responsive code -- */
 @media screen and (max-width: 2560px) {
 	.logo {
-		left: 90%;
+		left: 89%;
+		top: 27px;
+	}
+}
+@media screen and (max-width: 2000px) {
+	.logo {
+		left: 85%;
 	}
 }
 
 @media screen and (max-width: 1440px) {
 	.logo {
-		left: 85%;
+		left: 83%;
+		top: 25px;
 	}
 }
 
@@ -1203,7 +1208,7 @@ h3.agile_tittle.two {
 		left: 82%;
 	}
 	.logo a {
-		font-size: 3.5em;
+		font-size: 2.7em;
 	}
 }
 
@@ -1213,9 +1218,10 @@ h3.agile_tittle.two {
     }
 	.logo {
 		left: 80%;
+		top: 25px;
 	}
 	.logo a {
-		font-size: 3.2em;
+		font-size: 2.5em;
 	}
 }
 
@@ -1226,13 +1232,12 @@ h3.agile_tittle.two {
     }
 	.logo {
 		left: 78%;
+		top: 28px;
 	}
 	.logo a {
-		font-size: 3em;
+		font-size: 2.3em;
 	}
 }
-
-@media screen and (max-width: 1050px) {}
 
 @media screen and (max-width: 1024px) {
     h1.sec-title-0d {
@@ -1273,10 +1278,11 @@ h3.agile_tittle.two {
         max-width: 208px;
     }
 	.logo {
-		left: 75%;
+		left: 81%;
+		top: 35px;
 	}
 	.logo a {
-		font-size: 2.7em;
+		font-size: 2em;
 	}
 }
 
@@ -1340,11 +1346,11 @@ h3.agile_tittle.two {
 		line-height: 1.5;
 	}
 	.logo {
-		left: 76%;
-		top: 40px;
+		left: 79%;
+		top: 30px;
 	}
 	.logo a {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 }
 
@@ -1352,6 +1358,9 @@ h3.agile_tittle.two {
     #text {
         font-size: 2em;
     }
+	.logo a {
+		font-size: 1.5em;
+	}
 
 @media screen and (max-width: 736px) {
     h1.sec-title-0d {
@@ -1403,11 +1412,11 @@ h3.agile_tittle.two {
 	}
 	
 	.logo {
-		left: 72%;
-		top: 40px;
+		left: 79%;
+		top: 32px;
 	}
 	.logo a {
-		font-size: 2em;
+		font-size: 1.4em;
 	}
 }
 
@@ -1423,11 +1432,11 @@ h3.agile_tittle.two {
 		line-height: 1.5;
 	}
 	.logo {
-		left: 70%;
-		top: 35px;
+		left: 76%;
+		top: 33px;
 	}
 	.logo a {
-		font-size: 1.9em;
+		font-size: 1.4em;
 	}
 }
 
@@ -1456,11 +1465,8 @@ h3.agile_tittle.two {
 		margin-left: 1rem;
 	}
 	.logo {
-		left: 69%;
+		left: 75%;
 		top: 33px;
-	}
-	.logo a {
-		font-size: 1.8em;
 	}
 }
 
@@ -1498,11 +1504,11 @@ h3.agile_tittle.two {
         padding: 50vw 3vw 0;
     }
 	.logo {
-		left: 66%;
-		top: 33px;
+		left: 73%;
+		top: 35px;
 	}
 	.logo a {
-		font-size: 1.7em;
+		font-size: 1.3em;
 	}
 }
 
@@ -1569,6 +1575,10 @@ h3.agile_tittle.two {
     .banner_text_yok h2 {
         font-size: 1.85em;
     }
+	.logo {
+		left: 70%;
+		top: 35px;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -1620,6 +1630,10 @@ h3.agile_tittle.two {
     .layer {
         padding: 75vw 3vw 0;
     }
+	.logo {
+		left: 64%;
+		top: 33px;
+	}
 }
 
 

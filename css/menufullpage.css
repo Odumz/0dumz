@@ -161,11 +161,17 @@
 
 @media screen and (max-width: 2560px) {
     #menu {
-        margin-top: 1.5%;
-        margin-left: 4%;
+        margin-top: 1.6%;
+        margin-left: 5.5%;
     }
 	.menu-open span::before, .menu-open span::after {
 		margin-left: 30%;
+	}
+}
+@media screen and (max-width: 2000px) {
+	#menu {
+		margin-top: 1.9%;
+		margin-left: 6.3%;
 	}
 }
 
@@ -184,7 +190,7 @@
         font-size: 18px;
     }
     #menu {
-        margin-top: 4.2%;
+        margin-top: 4.4%;
         margin-left: 11%;
 	}
 }
@@ -195,6 +201,13 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+	#menu {
+		margin-top: 4.8%;
+		margin-left: 12%
+	}
+}
+
 @media screen and (max-width: 800px) {
     #menu li {
         padding: 15px 0;
@@ -203,15 +216,74 @@
         margin-top: 140px;
     }
     #menu {
-        margin-top: 5.6%;
-        margin-left: 14.5%;
+        margin-top: 4.2%;
+        margin-left: 11.5%;
     }
+	.menu-link span::before {
+    	top: -10px;
+		height: 4px;
+	}
+	.menu-link span::after {
+    	bottom: -10px;
+		height: 4px;
+	}
+	.menu-link span {
+		top: 45px;
+		height: 4px;
+		width: 40%;
+	}
+	.menu-open span::after {
+		top: -10px;
+	}
+	.menu-open span::before {
+		bottom: -10px;
+	}
+	.menu-open span {
+		top: 55px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#menu {
+		margin-top: 4.3%;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	#menu {
+		margin-top: 5.1%;
+		margin-left: 12.5%;
+	}
+	#menu a {
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	#menu {
+		margin-top: 5.8%;
+	}
+	.menu-link span {
+		left: 23px;
+	}
+	.menu-open span {
+		left: 17px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#menu {
+		margin-top: 6.5%;
+	}
+	#menu a {
+		padding: 7px 5px;
+	}
 }
 
 @media screen and (max-width: 480px) {
     #menu,
     #menu ul {
-        margin-top: 8.3%;
+        margin-top: 7%;
         margin-left: 14%;
     }
     #menu a {
@@ -221,10 +293,11 @@
     #menu li a,
     #menu a {
         font-size: 0.7em;
-        padding: 10px 5px;
+        padding: 7px 3px;
     }
-	.menu-open span::after, .menu-open span::before {
-		max-width: 60%;
+	.menu-open span::after, 
+	.menu-open span::before {
+		max-width: 70%;
 	}
 	.menu-link span {
 		left: 28px;
@@ -232,11 +305,35 @@
 		top: 45px;
 		max-width: 60%;
 	}
+	.menu-open span {
+		top: 55px;
+		left: 20px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#menu {
+		margin-top: 8%;
+		margin-left: 13%;
+	}
 }
 
 @media screen and (max-width: 375px) {
 	#menu {
-        margin-top: 8.3%;
-        margin-left: 8%;
+        margin-top: 8.7%;
+        margin-left: 12%;
     }
+	.menu-link span {
+		left: 14px;
+	}
+	.menu-open span {
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#menu {
+		margin-top: 10.5%;
+		margin-left: 10%;
+	}
 }
