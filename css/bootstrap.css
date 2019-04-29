@@ -630,8 +630,8 @@ pre code {
 .col-ma-3 {
 	position: relative;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 8px;
+	padding-left: 8px;
 	float: left;
 	width: 25%;
 }
@@ -7451,6 +7451,10 @@ button.bg-dark:focus {
   margin: 0.25rem !important;
 }
 
+.m+1 {
+	margin-left: 0.09rem !important;
+	margin-right: 0.09rem !important;
+}
 .mt-1,
 .my-1 {
   margin-top: 0.25rem !important;

@@ -24,6 +24,9 @@ h6 {
     margin: 0;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+h7 {
+	
+}
 
 p {
     margin: 0;
@@ -761,7 +764,8 @@ input[type=range]::-ms-track {
 .od3_head_pop h3 span {
     color: #04b962;
 }
-.od3_head_pop, .skills_span span {
+.od3_head_pop, 
+.skills_span span {
     color: #a1a1a1;
 }
 h3.skills_od3 {
@@ -781,15 +785,16 @@ div#odumzskills h3, .odumzskills h3{
 padding: 1.5em 0;
 }
 .od3layouts_skills_grids{
-	margin: 2.5em 0 0;
+	margin: 2.5em;
 }
 .od3ls_about_guage {
     text-align: center;
+	align-content: center;
 }
 .od3ls_about_guage h4 {
     font-size: 1.3em;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .od3_head_pop.skills_span span {
     color: #fff;
@@ -1093,6 +1098,16 @@ h3.agile_tittle.two {
     background: rgba(255, 255, 255, 0.12);
 }
 
+.pl-ma-2 {
+	padding-top: 3rem !important;
+	padding-bottom: 1rem !important;
+}
+
+.pl-ma-1 {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+}
+
 .services-box {
     margin-bottom: 20px;
     border-bottom: 1px dashed #dfe0e1;
@@ -1306,16 +1321,13 @@ h3.agile_tittle.two {
     }
 	.od3layouts_skills_grids{
 		max-width: 85%;
-		margin: 2.5em 0 0;
+		margin: 2.5em;
 	}
 	.col-ma-3 canvas {
     	width: 210%;
-		padding-left: 8px;
-		padding-right: 8px;
 	}
 	.col-ma-3 h4 {
 		font-size: 1em;
-		margin-left: 3rem;
 	}
 	.col-ma-2 canvas {
 		width: 180%;
@@ -1351,6 +1363,36 @@ h3.agile_tittle.two {
 	}
 	.logo a {
 		font-size: 1.7em;
+	}
+	.od3layouts_skills_grids{
+		max-width: 90%;
+		margin: 1.5em;
+	}
+	.col-ma-3 canvas {
+		padding-left: 3px;
+		padding-right: 3px;
+    	width: 130%;
+	}
+	.col-ma-3 h4 {
+		font-size: 1em;
+		margin-left: 2.5rem;
+	}
+	.col-ma-2 h4 {
+		font-size: 1em;
+		margin-left: 2rem;
+	}
+	.col-ma-2 canvas {
+		width: 160%;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.col-ma-2 {
+		float: left;
+		width: 20%;
+	}
+	.col-ma-3 {
+		float: left;
+		width: 25%;
 	}
 }
 
@@ -1410,13 +1452,24 @@ h3.agile_tittle.two {
 	.link_about a {
 		font-size: 0.5em;
 	}
-	
+	.progress {
+		height: 25px;
+	}
+	.bar-grids h6 {
+		font-size: 18px;
+	}
 	.logo {
 		left: 79%;
 		top: 32px;
 	}
 	.logo a {
 		font-size: 1.4em;
+	}
+	.col-ma-3 h4 {
+		margin-left: 1.7rem;
+	}
+	.col-ma-2 h4 {
+		margin-left: 0.7rem;
 	}
 }
 
@@ -1462,7 +1515,7 @@ h3.agile_tittle.two {
 	}
 	.col-ma-3 h4 {
 		font-size: 1em;
-		margin-left: 1rem;
+		margin-left: 2rem;
 	}
 	.logo {
 		left: 75%;
@@ -1475,6 +1528,12 @@ h3.agile_tittle.two {
         margin-top: -90px;
         padding: 1em;
     }
+	.progress {
+		height: 15px;
+	}
+	.bar-grids h6 {
+		font-size: 14px;
+	}
     .bar-group {
         margin: 0 0 0 30px;
     }
@@ -1509,6 +1568,17 @@ h3.agile_tittle.two {
 	}
 	.logo a {
 		font-size: 1.3em;
+	}
+	.col-ma-3, .col-ma-2 {
+		float: none;
+		width: 50%;
+		margin: 18%;
+	}
+	.col-ma-3 h4{
+		margin-left: 3.2rem;
+	}
+	.col-ma-2 h4 {
+		margin-left: 4rem;
 	}
 }
 
@@ -1633,6 +1703,10 @@ h3.agile_tittle.two {
 	.logo {
 		left: 64%;
 		top: 33px;
+	}
+	.col-ma-3 {
+		margin-left: 0.05rem !important;
+		margin-right: 0.05rem !important;
 	}
 }
 
